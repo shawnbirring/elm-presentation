@@ -1,11 +1,12 @@
-module Immutability exposing (..)
+module ImmutabilityErr exposing (..)
 
 import Html exposing (Html, text)
 
 sum_plus_one : Int -> Int -> Int
 sum_plus_one a b =
     let sum = a + b
-    in sum + 1
+        sum = sum + 1
+    in sum
 
 main : Html msg
 main =
