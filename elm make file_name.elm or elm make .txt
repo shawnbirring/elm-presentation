@@ -1,0 +1,49 @@
+elm make file_name.elm or elm make file_name.elm output=run.js
+elm reactor 
+elm --help
+
+
+slide 10 values: 
+pay attention to the + and ++ operator
+we will mention how this is important later
+
+slide 18 defining types: 
+here are a few types that we 
+defined in elm, we have ...
+
+
+slide 19: defining types for functions: 
+here we are defining 		
+the types for functions					
+you guys may notice some
+similarities to ocaml and to a prev lab
+here we are doing ...
+
+slide 21 inferring types of variables:
+here we just have variables 
+and we assign them values
+and elm will deduce the type of the variable
+as you can see we will not get any errors,
+only warnings except for the last example 
+
+slide 22 inferring types of functions:
+as you can see it is quite similar to the variables
+this is because it can deduce the type
+beacause of how we use it 
+for example, we match the "list" to a [] 
+and the n to a number
+"what do you guys think will happen if I pass a string into
+the add function" 
+also why does it say
+missing number -> number -> number
+
+
+
+starting to code
+start a project
+talk about ways to run it
+1. elm repl
+2. compile to html/js
+3. elm reactor
+
+1. run a simple text 
